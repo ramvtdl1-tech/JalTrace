@@ -22,3 +22,6 @@ A real shared pilot needs authenticated roles, a database, server-side validatio
 `npm test` checks invalid/nonfinite input, impact arithmetic, score caps, CSV quoting and spreadsheet formula mitigation. For a manual acceptance demo: add a report, filter it, mark it in progress, refresh to confirm persistence, resolve it and check active loss decreases, export CSV, cancel/reset demo. Test narrow screens and keyboard navigation before recording your demo.
 
 See SUBMISSION.md for rule analysis, ownership disclosure and a demo script.
+
+## Free hosting with GitHub Pages
+The app has no OpenAI API or runtime dependency. Hosting uses GitHub Pages, available free for public repositories. In repository Settings → Pages, select Deploy from a branch, branch `gh-pages`, folder `/ (root)`, and Save. The deployment branch contains the contents of `dist/`. Site address after publishing: https://ramvtdl1-tech.github.io/JalTrace/ . To update it, publish the updated contents of `dist/` to `gh-pages`. Browser data from the former host does not migrate automatically; export CSV there first. The hackathon AI-assistance disclosure is retained as accurate provenance.
